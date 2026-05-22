@@ -22,6 +22,11 @@ body {
 
     background-size: 200% 200%;
     animation: prideWave 12s ease-in-out infinite;
+    transition: transform 1s;
+}
+body:active {
+    transform: rotate(1turn);
+    transition: none;
 }
 
 @keyframes prideWave {
